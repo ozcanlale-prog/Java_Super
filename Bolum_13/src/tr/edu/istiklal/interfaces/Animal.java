@@ -1,0 +1,15 @@
+package tr.edu.istiklal.interfaces;
+
+public abstract class Animal implements Edible {
+	private double weight;
+	
+	public double getWeight() {
+		return weight;
+	}
+	
+	public void setWeight(double weight) {
+		this.weight = weight;
+	}
+	
+	public abstract String sound();
+}
